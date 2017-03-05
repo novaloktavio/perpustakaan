@@ -1,0 +1,65 @@
+body{
+	background-color:#f9f9f9
+}
+
+#main{
+	padding-left:240px
+
+}
+
+footer{
+	padding-left:240px
+}
+
+.logo{
+	height: 60px !important;
+}
+
+h1.logo-wrapper{
+	margin:0
+}
+
+
+header .brand-logo{
+	margin:1px 0;
+	padding-left:60px;
+	font-size: 25px;
+}
+
+
+.side-nav a{
+	line-height:50px;
+	height:50px;
+	font-size:17px;
+}
+
+
+ul.side-nav.leftside-navigation{
+	top:64px;
+	overflow:hidden;
+}
+
+.tombol{
+	margin-top: 15px;
+	margin-right: 40px;
+}
+	
+ul.side-nav.leftside-navigation li{
+	line-height:44px
+}
+
+.profil{
+	padding-top: 20px;
+}
+
+
+ul.side-nav.leftside-navigation li.user-details{
+	height:150px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin-bottom:15px;
+	padding:15px 0 0 15px
+}
+

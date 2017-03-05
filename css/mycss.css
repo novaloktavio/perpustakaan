@@ -1,0 +1,13 @@
+.navbar{
+	background:transparent !important;
+}
+
+.login{
+	width: 300px !important;
+	height: 350px !important;
+	color: #fff !important;
+}
+
+.material-icons{
+	top: 50% !important;
+}
