@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="css/icon.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/mycss.css">
+
+	<title>Perpustakaan</title>
+</head>
+<body>
+
+<!-- banner -->
+	<div class="slider fullscreen">
+   		<ul class="slides">
+       	<li>
+       		<img src="images/banner.jpg"> <!-- random image -->
+       		<div class="caption left-align">
+            <h2 style="padding-left: 15px;"><b>WELCOME!</b></h2>
+            <div class="card login z-depth-5">
+              <div class="card-content">
+       		      <form class="col s12 white-text" method="POST" action="user.html">
+                  <div class='row'>
+                    <div class='input-field'>
+                      <input class='validate' type='text' name="username" />
+                        <label >Username</label>
+                    </div>
+                  </div>
+
+                  <div class='row'>
+                    <div class='input-field'>
+                      <input class='validate' type='password' name="password" />
+                        <label for='password'>Password</label>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <input type="checkbox" id="test5" />
+                    <label for="test5">Setuju Dengan Syarat & Ketentuan</label>
+                  </div>
+
+                  <center>
+                    <div class='row'>
+                      <button type='submit' name='btn_login' class=' btn blue-grey darken-1'>Login</button>
+                    </div>
+                  </center>
+                </form>
+              </div>
+            </div>
+       		</div>
+       	</li>
+       	</ul>
+    </div>
+<!-- end banner -->
+
+<!-- modal login -->
+	<div id="login" class="modal">
+    	<div class="modal-content">
+      		<form class="col s12" method="POST" action="user.html">
+        		<div class='row'>
+                	<div class='input-field col s12'>
+                  		<input class='validate' type='text' name="username" />
+                  		<label >Username</label>
+                	</div>
+              	</div>
+
+            	<div class='row'>
+                	<div class='input-field col s12'>
+                  		<input class='validate' type='password' name="password" />
+                  		<label for='password'>Password</label>
+                	</div>
+              	</div>
+
+              	<center>
+	              	<div class='row'>
+    	            	<button type='submit' name='btn_login' class=' btn blue-grey darken-2'>Login</button>
+        	        </div>
+            	</center>
+            </form>
+
+            <div class="modal-footer">
+      			<a class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+    		</div>
+    	</div>
+  	</div>
+<!-- end modal -->
+
+<!-- modal register-->
+	<div id="register" class="modal">
+    	<div class="modal-content">
+      		<form class="col s12" method="POST" action="user.html">
+      			<div class='row'>
+                	<div class='input-field col s12'>
+                  		<input class='validate' type='text' name="nama" />
+                  		<label >Nama</label>
+                	</div>
+              	</div>
+
+              	<div class="row">
+        			<div class="input-field col s12">
+				        <input id="email" type="email" class="validate">
+				        <label for="email" data-error="wrong" data-success="right">Email</label>
+				    </div>
+				</div>
+
+        		<div class='row'>
+                	<div class='input-field col s12'>
+                  		<input class='validate' type='text' name="username" />
+                  		<label >Username</label>
+                	</div>
+              	</div>
+
+            	<div class='row'>
+                	<div class='input-field col s12'>
+                  		<input class='validate' type='password' name="password" />
+                  		<label for='password'>Password</label>
+                	</div>
+              	</div>
+
+              	<center>
+	              	<div class='row'>
+    	            	<button type='submit' name='btn_login' class=' btn blue-grey darken-2'>Register</button>
+        	        </div>
+            	</center>
+            </form>
+
+            <div class="modal-footer">
+      			<a class="modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+    		</div>
+
+    	</div>
+  	</div>
+<!-- end modal -->
+
+</body>
+	
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
+
+</html>
